@@ -1,0 +1,14 @@
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "My ajax website - it's awesome!",
+  "main": "index.js",
+  "scripts": {
+    "testowanko": "echo \"Error: no test specified\" && exit 1",
+    "isa": "echo 'hello isa'",
+    "start": "sdfsdfsdfdsfs",
+    "build": "sdffsdfsfsdfsf"
+  },
+  "author": "",
+  "license": "ISC"
+}
