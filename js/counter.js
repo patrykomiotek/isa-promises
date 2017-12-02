@@ -24,7 +24,13 @@ function add2(z) {
     });
 }
 
-add(50).then(function(result) {
+async function add3(z) {
+  var a = await myCounter(20);
+  var b = await myCounter(30);
+  return a + b + z;
+}
+
+add3(50).then(function(result) {
   console.log('Wynik result' + result);
 });
 
