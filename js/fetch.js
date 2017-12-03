@@ -1,3 +1,5 @@
+import api from './api';
+
 var headers = new Headers({
   'Content-type': 'text/plain'
 });
@@ -13,3 +15,13 @@ fetch('https://jsonplaceholder.typicode.com/users', config)
 }).then(function(data) {
   console.log(data);
 });
+
+api.get('/users');
+api.post('/places').then(data => {
+
+})
+
+// api.get(url)
+// api.post(url)
+// api.put(url)
+// api.delete(url)
